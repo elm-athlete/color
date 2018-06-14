@@ -240,20 +240,20 @@ fmod f n =
         integer =
             floor f
     in
-        toFloat (integer % n) + f - toFloat integer
+        toFloat (modBy n integer) + f - toFloat integer
 
 
 rgbToHsl : Int -> Int -> Int -> ( Float, Float, Float )
-rgbToHsl red green blue =
+rgbToHsl red_ green_ blue_ =
     let
         r =
-            toFloat red / 255
+            toFloat red_ / 255
 
         g =
-            toFloat green / 255
+            toFloat green_ / 255
 
         b =
-            toFloat blue / 255
+            toFloat blue_ / 255
 
         cMax =
             max (max r g) b

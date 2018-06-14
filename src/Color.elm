@@ -108,8 +108,6 @@ that has never helped me remember which one I should be writing.
 
 -}
 
-import Basics exposing (..)
-
 
 {-| Representation of colors.
 -}

@@ -1,28 +1,38 @@
 # elm Color
 
+
+This package is a compilation of these two packges, adapted to elm 0.19:
+
+- Color, from [elm-lang/core](https://github.com/elm-lang/core/blob/5.1.1/src/Color.elm)
+- [eskimoblood/elm-color-extra](https://github.com/eskimoblood/elm-color-extra)
+
+It also includes some code from [fredcy/elm-parseint](https://github.com/fredcy/elm-parseint)
+
+## Content
+
 Library for working with colors. Includes [RGB](https://en.wikipedia.org/wiki/RGB_color_model) and [HSL](http://en.wikipedia.org/wiki/HSL_and_HSV) creation, gradients, and built-in names.
 
-# Colors
+## Colors
 
 Color
 
 
-# Creation
+## Creation
 
 rgb, rgba, hsl, hsla, greyscale, grayscale, complement
 
 
-# Gradients
+## Gradients
 
 Gradient, linear, radial
 
 
-# Extracting Colors
+## Extracting Colors
 
 toRgb, toHsl
 
 
-# Built-in Colors
+## Built-in Colors
 
 These colors come from the [Tango palette](http://tango.freedesktop.org/Tango_Icon_Theme_Guidelines) which provides aesthetically reasonable defaults for colors. Each color also comes with a light and dark version.
 
